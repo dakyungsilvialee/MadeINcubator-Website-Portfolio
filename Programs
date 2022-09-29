@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadeINcubator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="sub-header-two">
+        <nav>
+            <a href="index.html"><img src="img/transparent logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Programs.html">PROGRAMS</a></li>
+                    <li><a href="Shop.html">SHOP</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Programs</h1>
+    </section>
+
+
+    <!---------Programs----------->
+    <section class="programs">
+        <h1>We Offer</h1>
+        <p>Helping and promoting creative start-ups at the intersection of business and fashion with vibrant programs, evenets, and workshops</p>
+
+        <div class="row">
+            <div class="programs-col">
+                <img src="img/empowerment series.jpg">
+                <h3>Empowerment Series</h3>
+                <p>The Entrepreneurship Empowerment Series will connect, inspire and mobilize BIPOC small businesses to get the resources they need to scale. 
+                    This professional development program is tailored to support common business concerns of the minority student and entrepreneur.
+                    The theme is “See Yourself In Business”.</p><br><br>
+                <p>One initiative that MadeINcubator would like to expand upon is inviting in professionals from varied Fashion, Economic Inclusion, Funding, Tech and Business fields to speak & engage with students and entrepreneurs regarding their innovative fashion and business related career choices & experiences.  
+                    Sessions will take place online and on a Saturday of each week in August 2022.</p><br>
+            </div>
+            <div class="programs-col">
+                <img src="img/College .png">
+                <h3>College and Professional Chapters</h3>
+                <p>Chapters are an important way MadeINcubator, Inc is able to reach young individuals, and empower them with tools and resources to build self-sustaining businesses and innovative ideas.</p><br>
+                <p>Our College Chapter will host exciting events, and lead thought-provoking discussions around the challenges students face because of the racial wealth gap, gender equality, sustainably and access to scholorships.</p><br>
+                <p>Our Professional Chapter encourages millennials and successive generations to pursue entrepreneurship and utilize their skills and talents to strengthen their career decisions and network, offering internships and employment opportunity and more.</p><br>
+                <a href="chapters.html" class="exploreMoreButton">Explore More</a>
+            </div>
+            <div class="programs-col">
+                <img src="img/studio.png">
+                <h3>Services</h3>
+                <h4>The Experience</h4>
+                <p>This is more than just an incubator program. We are redefining the designer learning and design experience. Interactive real time learning, unexpected challenges, exclusive NYC fashion tour, group selling events and more!</p><br><br>
+                <h4>Opportunity</h4>
+                <p>We leverage our industry connections to help accelerate your career to new heights. No one succeeds alone, and you no longer must. The industry is intense and changing at an incredible rate. The time is now to keep up to date with the latest technology and stay competitive on a global scale.</p><br>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+  <!-- ------Footer------ -->
+  <section class="footer">
+    <p>© 2022 MadeINcubator Inc. All Rights Reserved</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/madeincubator/"> <i class="fa fa-facebook"></i></a>
+		<a href="https://www.instagram.com/madeincubator/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/madeincubator/"> <i class="fa fa-linkedin"></i></a>
+    </div>
+ </section>
+
+
+
+
+ <!-- ---JavaScript for Toggle Menu---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>
+
+
