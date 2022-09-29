@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadeINcubator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/transparent logo.png" class="transparentLogo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Programs.html">PROGRAMS</a></li>
+                    <li><a href="Shop.html">SHOP</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MADEINCUBATOR</h1>
+            <p>We aim to empower and increase the black and brown entrepreneurial community through the creation of new, sustainable businesses, job creation and financial literacy.
+                <br>We aim to support both organizations and the people.</p>
+            <a href="Contact.html" class="joinUsButton">JOIN THE MOVEMENT</a>
+        </div>
+
+
+
+    </section>
+
+    
+<!-- -----Mission----- -->
+
+<section class="mission">
+    <h1>OUR MISSION</h1>
+    <p class="mission-paragraph">MadeINcubator is the City of Boston’s first fashion incubator and its mission is to change the fashion world through innovation, <br>
+        by developing ecosystems that allow exceptional fashion entrepreneurs to create new products and companies better and faster.</p>
+
+     <div class="row">
+         <div class="mission-col">
+            <h3>Entrepreneurs</h3>
+             <p>We provide real life education, resources, and mentorship. We offer a learning scenario that entrepreneurs can leverage community partnerships that foster a more inclusive entrepreneurial ecosystem globally.</p>
+         </div>
+         <div class="mission-col">
+            <h3>Communities</h3>
+             <p>We partner with communities and organizations nationwide to help under-represented fashion businesses and comapnies create new products. We want to advance the economic well-being of BIPOC businesses, organizations, and the people.</p>
+         </div>
+         <div class="mission-col">
+            <h3>Organizations</h3>
+             <p>We realize the impact fashion has on the local economy from professional organizations, so we envisioned using fashion as an anchor to build economic development, job creation, cultural growth, trade development and tourism.</p>
+         </div>
+    </div>
+</section>
+
+
+<!-- -----impact----- -->
+<section class="audience">
+    <h1>OUR GLOBAL IMPACT</h1>
+    <p>We have a diverse group of clients in our network that can inspire eachother</p>
+
+    <div class="row">
+        <div class="audience-col">
+           <img src="img/newyork.png">
+           <div class="layer">
+                <h3>Boston</h3>
+           </div>
+        </div>
+        <div class="audience-col">
+            <img src="img/london.png">
+            <div class="layer">
+                 <h3>Atlanta</h3>
+            </div>
+         </div>
+         <div class="audience-col">
+            <img src="img/washington.png">
+            <div class="layer">
+                 <h3>New York</h3>
+            </div>
+         </div>
+</section>
+
+<!--container -->
+<section class="slider">
+    <h1>OUR EVENTS</h1>
+    <p>We are here to support the business of fashion through vibrant programming as well as free, low cost public workshops and networking events.</p>
+
+    <div class="container">
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/event1.JPG"></div>
+        <div class="swiper-slide"><img src="img/event2.JPG"></div>
+        <div class="swiper-slide"><img src="img/event3.JPG"></div>
+        <div class="swiper-slide"><img src="img/event4.JPG"></div>
+        <div class="swiper-slide"><img src="img/bloomingdale.JPG"></div>
+        <div class="swiper-slide"><img src="img/bloomingdale2.JPG"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!--testimonial -->
+<section class="testimonial">
+    <h1>OUR CLIENTS' REVIEWS</h1>
+    
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="img/user1 .png">
+            <div>
+                <p>"MadeINcubator helped us develop our apparel line and their team and mentorship was on point! Highly recommend to aspiring desginers."</p>
+                <h3>Aafisha Russell</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="img/user2 .png">
+            <div>
+                <p>"Their team responded quickly and understood and translated my vision very well. I would definetly work with MadeINcubator again."</p>
+                <h3>Marvin Hung</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="img/user3 .png">
+            <div>
+                <p>"They tuaght me to raisse capitol and sell products to my customers, which has saved me countless money and hours to do the work for my business."</p>
+                <h3>Renee Jackson</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------Call to Action------ -->
+    <section class="cta">
+        <h1>Enroll Various Online Events and Programs <br> Anywhere From the World</h1>
+        <a href="Contact.html" class="contactButton">CONTACT US</a>
+    </section>
+
+
+     <!-- ------Footer------ -->
+     <section class="footer">
+        <p>© 2022 MadeINcubator Inc. All Rights Reserved</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/madeincubator/"> <i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/madeincubator/"> <i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/madeincubator/"> <i class="fa fa-linkedin"></i></a>
+        </div>
+     </section>
+
+
+
+
+
+
+    
+
+
+<!-- ---JavaScript for Toggle Menu---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>
