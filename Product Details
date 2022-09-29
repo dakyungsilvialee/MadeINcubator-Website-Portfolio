@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadeINcubator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="sub-header-three">
+        <nav>
+            <a href="index.html"><img src="img/transparent logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Programs.html">PROGRAMS</a></li>
+                    <li><a href="Shop.html">SHOP</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Products Coming Soon</h1>
+    </section>
+
+<!----------Shop------------>
+<!-- <section id="productDetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="img/shop images/products/f1.jpg" width="100%" id="mainImg">
+    </div>
+    <div class="single-pro-details">
+        <h4>T Shirt</h4>
+        <h2>$25</h2>
+        <select>
+            <option>Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select>
+        <select>
+            <option>Color</option>
+            <option>Black</option>
+            <option>White</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add to Cart</button>
+        <h1>Product Details</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore sit praesentium deserunt et nobis eligendi quod iusto blanditiis, explicabo odit. Magni quidem qui molestiae autem vero numquam iste? Quasi, eaque.</p>
+
+    </div>
+</section> -->
+
+
+
+
+
+
+ <!--------Footer------ -->
+ <section class="footer">
+    <p>© 2022 MadeINcubator Inc. All Rights Reserved</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/madeincubator/"> <i class="fa fa-facebook"></i></a>
+		<a href="https://www.instagram.com/madeincubator/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/madeincubator/"> <i class="fa fa-linkedin"></i></a>
+    </div>
+ </section>
+
+
+
+
+ <!-- ---JavaScript for Toggle Menu---- -->
+ <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
