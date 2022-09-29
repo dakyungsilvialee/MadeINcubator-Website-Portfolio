@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadeINcubator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="sub-header-two">
+        <nav>
+            <a href="index.html"><img src="img/transparent logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Programs.html">PROGRAMS</a></li>
+                    <li><a href="Shop.html">SHOP</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Chapters</h1>
+    </section>
+
+    
+    <section class="chapters">
+        <h1></h1>
+        <p>MadeINcubator services focus on the clients' most critical issues and opportunities. Strategy, marketing, organization, operations, funding support etc. We act as an everyday coach and business partner to our unique clients and invest time and effort to discover the essential fundamentals of your brand, consumers and markets. We work closely with you to define your goals, create brand strategy and bespoke solutions that make business sense while being a constant source of inspiration and education. We are partners with real world experience who are ready to dig into the nuts and bolts of your company or organization and work with you to craft an actionable plan that overcomes challenges, solves problems, and achieves lasting results. You should work with us if: </p>
+        <ul>
+            <li>Your company is dealing with a specific problem and you need advice</li>
+            <li>Your company is dealing with a specific problem and you need advice</li>
+            <li>You feel overwhelmed by the stress of owning and managing a business</li>
+            <li>You are ready to learn from someone with an unbiased, outside perspective</li>
+            <li>You are looking to grow your business and take advantage of new opportunities</li>
+        </ul>`      
+
+        <br><h1>Opportunity:</h1>
+        <p>We leverage our industry connections to help accelerate your career to new heights. No
+            one succeeds alone, and you no longer must. The industry is intense and changing at an
+            incredible rate. The time is now to keep up to date with the latest technology and stay
+            competitive on a global scale.</p>
+
+        <br><h1>MadeINcubator provides top rated business coaching:</h1>
+        <p>We understand how difficult it can be to build and grow a successful company. There is simply
+            so much work that must be done. Your resources—most importantly, your time and your
+            money—are precious. At MadeINcubator, our business experts are focused on providing
+            efficient, practical, cost-effective services and solutions to our clients. Our business coaching
+            team offers truly comprehensive support, assisting clients with the full range of issues, including:</p>
+        <ul>
+            <li>Marketing</li>
+            <li>Business Infrastructure</li>
+            <li>Business Operations</li>
+            <li>Much more</li>
+        </ul>
+        
+        <p>Business coaching must be personalized. One-size-fits-all advice is not good enough. We take
+            the time and energy to get to know our clients and their business—figuring out exactly what they
+            can do to overcome obstacles, increase their productivity and profits, and grow their company.
+            Our team is ready to get started helping you.</p>
+        
+            <br><h1>Get started today:</h1>
+        <p>At MadeINcubator, our business coaches are ready to help you improve your efficiency and
+            grow your company. We are committed to providing personalized, effective solutions to business
+            owners and entrepreneurs. <a href="Contact.html"> Contact us</a> today to find out more about how we can help your
+            company. With a primary office in Boston, our team offers top quality business coaching
+            services throughout the entire region and nation.</p>
+    </section>
+    
+
+
+
+
+
+ <!-- ------Footer------ -->
+ <section class="footer">
+    <p>© 2022 MadeINcubator Inc. All Rights Reserved</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/madeincubator/"> <i class="fa fa-facebook"></i></a>
+		<a href="https://www.instagram.com/madeincubator/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/madeincubator/"> <i class="fa fa-linkedin"></i></a>
+    </div>
+ </section>
+
+
+
+ <!-- ---JavaScript for Toggle Menu---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>
