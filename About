@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadeINcubator Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https:stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section class="sub-header-one">
+        <nav>
+            <a href="index.html"><img src="img/transparent logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Programs.html">PROGRAMS</a></li>
+                    <li><a href="Shop.html">SHOP</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+
+<!----------About Us------------>
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+        <h1>Meet the Founder</h1>
+        <p>Taneshia is known as the fearless leader because of her business savy, strategies, tenacity, and willingness to never give up.<br>
+        <p>Her popular workshops "Business Of Fashion" and fashion incubator "MadeINcubator", have been redefining and revolutionizing designers.<br></p>
+        <p>Taneshia has partnered with numerous entrepreneurs and organizations such as Microsoft, Eastern Bank, and Center for Women and Enterprise (CWE) to develop these programs.</p>
+        <p>We have a hands-on approach to managing every aspect of your design and development process from concept to consumer by accelerating the entrepreneurial economics in fashion and business.</p>
+        </div>
+        <div class="about-col"><img src="img/ceo.jpg"></div>
+    </div>
+</section>
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+        <h1>Our Organization</h1>
+        <p>MadeINcubator creates innovative solutions to bridge the gap between education and entrepreneurship.
+            We aim to support both organizations and the people. Offering a learning scenario that entrepreneurs,
+            educators and organizations can leverage community partnerships that foster a more inclusive entrepreneurial ecosystem globally. <br></p> 
+        <p>MadeINcubator is an international hub that fosters business innovation in the Fashion and business industry while partnering with communities and organizations nationwide to help fashion businesses create new products and companies better and faster. <br>
+        <p>We do this by providing educational programming and vibrant experiences. Advancing the economic well-being of businesses, organizations, and the people.</p>
+        </div>
+        <div class="about-col"><img src="img/organization.png"></div>
+    </div>
+</section>
+
+
+
+
+
+ <!-- ------Footer------ -->
+ <section class="footer">
+    <p>© 2022 MadeINcubator Inc. All Rights Reserved</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/madeincubator/"> <i class="fa fa-facebook"></i></a>
+		<a href="https://www.instagram.com/madeincubator/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/madeincubator/"> <i class="fa fa-linkedin"></i></a>
+    </div>
+ </section>
+
+
+
+ <!-- ---JavaScript for Toggle Menu---- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>
+
