@@ -12,5 +12,5 @@
 # [MadeINcubator Website Front-end Design]()
 > Designed the front end of the rebranded website 
 
-# [MadeINcubator Website]()
+# [MadeINcubator Official Website]()
 > Finalized rebranded website by referencing the front-end design and complimenting back end by using Squarespace 
