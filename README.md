@@ -7,6 +7,7 @@
 > Front-End: 
 * HTML
 * CSS
+* PHP
 * JavaScript
 
 
